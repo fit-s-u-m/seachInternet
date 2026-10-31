@@ -1,0 +1,14 @@
+{
+  "id": "dankDuckDuckGoSearch",
+  "name": "DuckDuckGo Search",
+  "description": "Search DuckDuckGo from the launcher. Bangs work and open in your default browser, with a short answer glimpse.",
+  "version": "1.0.0",
+  "author": "fitsum",
+  "type": "launcher",
+  "capabilities": ["launcher"],
+  "component": "./DuckDuckGoSearch.qml",
+  "settings": "./Settings.qml",
+  "icon": "search",
+  "trigger": "ddg ",
+  "permissions": ["settings_read", "settings_write"]
+}
